@@ -1,7 +1,4 @@
-__pycache__/
 # Ignore RAG directories with variations
-
-chroma_db_ollama*/
-
+__pycache__/
 # Ignore macOS system files
 .DS_Store
