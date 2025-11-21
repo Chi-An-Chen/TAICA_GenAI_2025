@@ -28,17 +28,17 @@ uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url ht
 ## Usage  
 
 #### 1.	Prepare PDF files:  
-Place all relevant PDF files in the pdf_files folder. The program will automatically read and index them for RAG.  
+Place all relevant PDF files in the `pdf_files` folder. The program will automatically read and index them for RAG.  
 
 #### 2.	Set API Key:  
-Create or update API_KEY.json with your API key for LLM and embedding access.  
+Create or update `API_KEY.json` with your API key for LLM and embedding access.  
 
 #### 3.	Run the chatbot:  
 ```bash
 python app.py
 ```
 #### 4.	Adjust settings:  
-You can configure parameters such as top_k for similarity search, embedding model choice, and RAG prompt templates inside app.py.  
+You can configure parameters such as top_k for similarity search, embedding model choice, and RAG prompt templates inside `app.py`.  
 
 ## Folder Structure
 ```bash
