@@ -1,0 +1,34 @@
+# --- LLM & LangChain 生態系 ---
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-core==0.3.72
+langchain-experimental==0.3.4
+langchain-openai==0.3.28
+langchain-google-genai==2.1.8
+langchain-ollama==0.3.6
+langchain-huggingface==0.3.1
+langchain-chroma==0.2.5
+langchain-text-splitters==0.3.9
+langgraph==0.5.4
+
+# --- 模型客戶端與 SDK ---
+openai==1.97.1
+ollama==0.5.1
+google-ai-generativelanguage==0.6.18
+huggingface-hub==0.36.0
+
+# --- 機器學習與深度學習核心 ---
+transformers==4.57.1
+sentence-transformers==5.0.0
+
+# --- 資料處理與科學計算 ---
+jieba==0.42.1
+
+# --- 向量資料庫 ---
+chromadb==1.3.5
+
+# --- Web 框架與 UI ---
+gradio==5.49.1
+
+# --- 檔案處理 (PDF/其他) ---
+pymupdf==1.26.6
