@@ -1,4 +1,4 @@
 {
-    "OPENAI_API_KEY" : "",
-    "GOOGLE_API_KEY" : "AIzaSyBXLCAwCa0W4aA-T9PszVlDL7hm5gKn2Po"
+    "OPENAI_API_KEY" : "your-api-key",
+    "GOOGLE_API_KEY" : "your-api-key"
 }
