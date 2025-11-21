@@ -8,35 +8,37 @@ This project implements a **RAG (Retrieval-Augmented Generation) Chatbot** that 
 
 ## Installation
 
-1. Create and activate a conda environment:
+#### 1. Create and activate a conda environment:
 
 ```bash
 conda create -n RAGChatbot python=3.13 -y
 conda activate RAGChatbot
 ```
-2. Install dependencies:
+#### 2. Install dependencies:
 ```bash
 pip install -q uv
 uv pip install -r requirements.txt
 ```
-3. Install PyTorch based on your CUDA version
+#### 3. Install PyTorch based on your CUDA version
 (Example below uses CUDA 12.4):
 ```bash
 uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 ```
 
-## Usage
-### 1.	Prepare PDF files:  
-Place all relevant PDF files in the pdf_files folder. The program will automatically read and index them for RAG.
-### 2.	Set API Key:  
-Create or update API_KEY.json with your API key for LLM and embedding access.
-### 3.	Run the chatbot:  
+## Usage  
+
+#### 1.	Prepare PDF files:  
+Place all relevant PDF files in the pdf_files folder. The program will automatically read and index them for RAG.  
+
+#### 2.	Set API Key:  
+Create or update API_KEY.json with your API key for LLM and embedding access.  
+
+#### 3.	Run the chatbot:  
 ```bash
 python app.py
 ```
-### 4.	Adjust settings:  
-You can configure parameters such as top_k for similarity search, embedding model choice, and RAG prompt templates inside app.py.
-
+#### 4.	Adjust settings:  
+You can configure parameters such as top_k for similarity search, embedding model choice, and RAG prompt templates inside app.py.  
 
 ## Folder Structure
 ```bash
