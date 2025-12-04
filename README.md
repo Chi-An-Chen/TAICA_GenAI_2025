@@ -25,6 +25,12 @@ uv pip install -r requirements.txt
 uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
 ```
 
+#### 4. Install Ollama and LLM model
+After installed ollama run
+```bash
+ollama pull gemma3n:e4b
+```
+
 ## Usage  
 
 #### 1.	Prepare PDF files:  
