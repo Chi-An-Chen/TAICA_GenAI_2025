@@ -26,7 +26,7 @@ uv pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url ht
 ```
 
 #### 4. Install Ollama and LLM model
-After installed ollama run
+After installation run
 ```bash
 ollama pull gemma3n:e4b
 ```
