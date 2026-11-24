@@ -17,7 +17,7 @@ conda activate RAGChatbot
 #### 2. Install dependencies:
 ```bash
 pip install -q uv
-uv pip install -r requirements.txt
+uv pip install -r requirement.txt
 ```
 #### 3. Install PyTorch based on your CUDA version
 (Example below uses CUDA 12.4):
