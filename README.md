@@ -1,5 +1,7 @@
 # TAICA Final Project - Generative AI: Text and Image Synthesis Principles and Practice
 
+[Pipeline guide: providers, existing outputs, and launch sequence](PIPELINE_GUIDE.md)
+
 ## Overview
 
 This project implements a **RAG (Retrieval-Augmented Generation) Chatbot** that can answer questions based on PDF documents. It leverages embeddings, vector stores, and a large language model to provide context-aware responses.
